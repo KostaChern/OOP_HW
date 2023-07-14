@@ -15,12 +15,13 @@ public class App {
         iActorBehaviuor client2 = new SpecialClient("prezident",1001);
         iActorBehaviuor p = new PensionerClient("Sergey Nikolay",1111);
         iActorBehaviuor tax = new TaxService();
-        iActorBehaviuor promoClient1 = new PromoClient("Вася Петров", 11, 55);
+        iActorBehaviuor promoClient1 = new PromoClient("Вася Акция", 11, 55);
 
         magnit.acceptToMarket(client1);
         magnit.acceptToMarket(client2);
         magnit.acceptToMarket(p);
         magnit.acceptToMarket(tax);
+        magnit.acceptToMarket(promoClient1);
 
         magnit.update();
     }
