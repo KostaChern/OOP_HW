@@ -11,11 +11,11 @@ import Services.TeacherService;
 
 public class App {
     public static <T> void main(String[] args) throws Exception {
-
-        Student s1 = new Student("Иван", 25, 101);
-        Student s2 = new Student("Игорь", 23, 102);
-        Student s3 = new Student("Максим", 22, 103);
-        Student s4 = new Student("Леонид", 20, 104);
+// Заполнение листа студентов
+        Student s1 = new Student("Петр", 23, 101);
+        Student s2 = new Student("Ольга", 21, 102);
+        Student s3 = new Student("Давид", 22, 103);
+        Student s4 = new Student("Валентина", 20, 104);
 
         List<Student> studentList = new ArrayList<Student>();
 
@@ -26,11 +26,11 @@ public class App {
 
         PersonComparator<Student> comS = new PersonComparator<Student>();
         comS.compare(s1, s2);
-
-        Teacher t1 = new Teacher("Александр Квитко", 67, "Доцент");
-        Teacher t2 = new Teacher("Василий Радов", 65, "Профессор");
-        Teacher t3 = new Teacher("Анна Симонова", 37, "Старший преподаватель");
-        Teacher t4 = new Teacher("Мария Клековкина", 43, "Доцент");
+// Заполнение листа учителей
+        Teacher t1 = new Teacher("Владимир Павлов", 55, "Доцент");
+        Teacher t2 = new Teacher("Олег Владимиров", 63, "Профессор");
+        Teacher t3 = new Teacher("Алефтина Иванова", 39, "Старший преподаватель");
+        Teacher t4 = new Teacher("Мария Соколова", 45, "Кандидат наук");
 
         List<Teacher> teacherList = new ArrayList<Teacher>();
 
