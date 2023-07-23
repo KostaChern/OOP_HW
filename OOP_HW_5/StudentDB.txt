@@ -64,3 +64,9 @@ Ivan 22 121
 Igor 23 301
 Dasha 25 171
 Lena 23 104
+Ser 21 101
+Andr 22 111
+Ivan 22 121
+Igor 23 301
+Dasha 25 171
+Lena 23 104
